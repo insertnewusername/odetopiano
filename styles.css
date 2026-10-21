@@ -22,9 +22,16 @@ div {
     color:rgb(0, 0, 0);
 }
 
+.pieces {
+    display:flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    gap: 20px;
+    flex-wrap:wrap;
+}
 
 .pieces img {
-    width: 60px;
+    width: 300px;
     height: auto;
 }
 
@@ -104,4 +111,10 @@ li.dropdown {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+@media screen and (max-width: 800px) {
+  .pieces img {
+    width: 150px; /* The width is 100%, when the viewport is 800px or smaller */
+  }
 }
