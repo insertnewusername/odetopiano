@@ -23,7 +23,10 @@ div {
 }
 
 
-
+.pieces img {
+    width: 60px;
+    height: auto;
+}
 
 .mcontent {
     background-color:#ddca8b;
