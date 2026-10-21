@@ -37,3 +37,7 @@ ul li a {
 ul li a:hover {
   background-color: #ddca8b;
 }
+
+ul li a.active {
+  background-color: #c1bfa1;
+}
