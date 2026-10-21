@@ -35,6 +35,11 @@ div {
     height: auto;
 }
 
+.piece {
+    display:flex;
+    flex-direction:column
+}
+
 .mcontent {
     background-color:#ddca8b;
     padding: 10px;
