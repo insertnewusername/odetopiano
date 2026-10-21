@@ -7,6 +7,11 @@ body {
     margin: 0;
 }
 
+
+h1 {
+    text-align:center;
+}
+
 div {
     margin: 0;
 }
@@ -16,6 +21,25 @@ div {
     margin-top: 0;
     color:rgb(0, 0, 0);
 }
+
+
+
+
+.mcontent {
+    background-color:#ddca8b;
+    padding: 10px;
+    border-bottom-left-radius:16px;
+    border-bottom-right-radius: 16px;
+}
+
+
+
+
+
+
+
+
+
 
 .header {
     text-align:center;
