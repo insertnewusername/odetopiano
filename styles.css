@@ -28,6 +28,16 @@ div {
   text-align:center;
 }
 
+.songInfo {
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction:column;
+  justify-content:space-evenly;
+  float:right;
+  padding-right: 30%;
+}
+
+
 .songTitle {
   display:flex;
   flex-wrap:wrap;
