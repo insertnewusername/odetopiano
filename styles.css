@@ -40,6 +40,16 @@ div {
     flex-direction:column
 }
 
+
+.piece a {
+  background-color:#ddca8b;
+  border-radius:16px;
+}
+
+.piece a:hover {
+  background-color:#c1bfa1
+}
+
 .mcontent {
     background-color:#ddca8b;
     padding: 10px;
