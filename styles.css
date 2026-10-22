@@ -27,7 +27,11 @@ div {
   padding: 20px;
 }
 
-
+.songTitle {
+  display:flex;
+  flex-wrap:wrap;
+  background-color:bisque;
+}
 
 .ameb {
   display:flex;
