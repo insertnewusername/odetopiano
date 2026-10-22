@@ -25,6 +25,7 @@ div {
 .card {
   background-color:#c1bfa1;
   padding: 20px;
+  text-align:center;
 }
 
 .songTitle {
@@ -35,6 +36,11 @@ div {
 
 .ameb {
   display:flex;
+  padding: 300px;
+  padding-top:30px;
+  padding-bottom:0px;
+  gap: 200px;
+  line-height: 3;
 }
 
 .ameb img {
