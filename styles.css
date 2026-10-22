@@ -69,12 +69,14 @@ div {
 }
 
 
-.piece a {
+.piece a[href$=".html"] {
   background-color:#ddca8b;
   border-radius:16px;
+  text-decoration:none;
+  color:white;
 }
 
-.piece a:hover {
+.piece a[href$=".html"]:hover {
   background-color:#c1bfa1
 }
 
