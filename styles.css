@@ -22,6 +22,23 @@ div {
     color:rgb(0, 0, 0);
 }
 
+.card {
+  background-color:#c1bfa1;
+  padding: 20px;
+}
+
+
+
+.ameb {
+  display:flex;
+}
+
+.ameb img {
+  float:right;
+  width: 400px;
+  height: auto;
+}
+
 .pieces {
     display:flex;
     justify-content: space-evenly;
@@ -131,5 +148,9 @@ li.dropdown {
 @media screen and (max-width: 800px) {
   .pieces img {
     width: 150px; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+
+  .ameb img {
+    width: 200px;
   }
 }
