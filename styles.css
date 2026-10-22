@@ -1,9 +1,17 @@
-
+:root {
+    --body-bg-color:rgb(226, 206, 180);
+    --card-bg-color:#c1bfa1;
+    --secondary-color:ddca8b;
+    --topbar-bg-color:#69a5cf;
+    --text-color:black;
+    --gameicons-bg-color:rgb(167, 213, 253);
+    --gdbackground: linear-gradient(to bottom right, #3366cc 0%, #66ffff 100%); /* This is a gradient */
+}
 
 
 
 body {
-    background-color:rgb(226, 206, 180);
+    background-color:var(--body-bg-color);
     margin: 0;
 }
 
@@ -23,7 +31,7 @@ div {
 }
 
 .card {
-  background-color:#c1bfa1;
+  background-color:var(--card-bg-color)
   padding: 20px;
   text-align:center;
 }
@@ -80,7 +88,7 @@ div {
 
 
 .piece a[href$=".html"] {
-  background-color:#ddca8b;
+  background-color:var(--secondary-color);
   border-radius:16px;
   text-decoration:none;
   color:white;
@@ -91,7 +99,7 @@ div {
 }
 
 .mcontent {
-    background-color:#ddca8b;
+    background-color:var(--secondary-color);
     padding: 10px;
     border-bottom-left-radius:16px;
     border-bottom-right-radius: 16px;
@@ -130,11 +138,11 @@ ul li a, .dropbtn {
 }
 
 ul li a:hover, .dropdown:hover .dropbtn {
-  background-color: #ddca8b;
+  background-color: var(--secondary-color);
 }
 
 ul li a.active {
-  background-color: #c1bfa1;
+  background-color: var(--card-bg-color);
 }
 
 li.dropdown {
@@ -161,7 +169,7 @@ li.dropdown {
 }
 
 .dropdown-content a:hover {
-    background-color: #ddca8b;
+    background-color: var(--secondary-color);
 }
 
 .dropdown:hover .dropdown-content {
