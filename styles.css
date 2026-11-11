@@ -192,4 +192,8 @@ li.dropdown {
   .ameb img {
     width: 200px;
   }
+
+  .songInfo {
+    padding-left:30px;
+  }
 }
