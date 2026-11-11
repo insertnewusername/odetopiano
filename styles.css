@@ -41,15 +41,23 @@ div {
   flex-wrap:wrap;
   flex-direction:column;
   justify-content:space-evenly;
-  float:right;
-  padding-right: 30%;
+  padding-left: 30%;
+  order:2;
 }
 
 
 .songTitle {
   display:flex;
   flex-wrap:wrap;
+  text-align:center;
   background-color:bisque;
+  flex-direction:column;
+}
+
+.songOverview {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
 }
 
 .ameb {
