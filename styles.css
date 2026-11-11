@@ -68,19 +68,21 @@ div {
 
 .ameb {
   display:flex;
-  padding: 300px;
+  padding: 5%;
   padding-top:30px;
   padding-bottom:0px;
-  gap: 200px;
+  gap: 5%;
   line-height: 3;
 }
 
 .ameb img {
   float:right;
   width: 400px;
-  height: auto;
+  height: 400px;
   border-radius:30px;
+  align-self:center;
 }
+
 
 .pieces {
     display:flex;
@@ -192,13 +194,20 @@ li.dropdown {
 
 @media screen and (max-width: 800px) {
   .pieces img {
-    width: 150px; /* The width is 100%, when the viewport is 800px or smaller */
+    width: 150px; /* The width is 100%, when the viewport is 800px or bigger */
+    
   }
 
   .ameb img {
+    align-self:center;
     width: 200px;
+    height: 200px;
   }
 
+  .ameb {
+    padding: 0;
+    gap:10px;
+  }
   .songInfo {
     padding-left:30px;
   }
