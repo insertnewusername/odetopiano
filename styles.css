@@ -60,6 +60,12 @@ div {
   justify-content:center;
 }
 
+
+.bgInfo {
+  text-align:center;
+}
+
+
 .ameb {
   display:flex;
   padding: 300px;
