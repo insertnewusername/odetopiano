@@ -123,7 +123,23 @@ div {
 
 
 
+/* Composer html section */
 
+.aboutComp {
+  text-align:center;
+  display: flex;
+  flex-wrap:wrap;
+  flex-direction:column;
+}
+
+.aboutComp h1 {
+  padding: 16px;
+  margin:10px;
+}
+
+.famousComps {
+  text-decoration:none;
+}
 
 
 
