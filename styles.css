@@ -16,8 +16,10 @@ body {
 }
 
 
-h1 {
-    text-align:center;
+
+
+p, h1, h2, h3, h4 {
+  text-align:center;
 }
 
 div {
@@ -138,6 +140,8 @@ div {
 }
 
 .famousComps {
+  display:flex;
+  flex-wrap:wrap;
   text-decoration:none;
 }
 
