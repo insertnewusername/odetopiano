@@ -53,14 +53,26 @@ div {
   flex-wrap:wrap;
   text-align:center;
   background-color:bisque;
-  flex-direction:column;
+  flex-direction:row;
+  justify-content:space-evenly;
+  place-items:center;
+  padding-bottom:20px;
+}
+
+.songTitle div {
+  width:33.33333%;
 }
 
 .songTitle img {
   border-radius:16px;
-  max-width: 50%;
+  max-width: 70%;
   max-height:400px;
   align-self:center;
+}
+
+.whichCountry img {
+  width: 300px;
+  margin:30px;
 }
 
 .songOverview { 
