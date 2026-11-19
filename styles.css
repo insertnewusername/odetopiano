@@ -73,6 +73,7 @@ div {
 .whichCountry img {
   width: 300px;
   margin:30px;
+  margin-top:0;
 }
 
 .songOverview { 
@@ -81,6 +82,9 @@ div {
   justify-content:center;
 }
 
+.timeLiving h1, .timeLiving h2{
+  margin-bottom:15%;
+}
 
 .bgInfo {
   text-align:center;
