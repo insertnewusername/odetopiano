@@ -77,6 +77,15 @@ div {
   margin-bottom:0;
 }
 
+.compOverview {
+  display:flex;
+  gap:30px;
+}
+
+.compOverview div {
+  width:50%;
+}
+
 .songOverview { 
   display:flex;
   flex-wrap:wrap;
@@ -208,6 +217,17 @@ li.dropdown {
   display: inline-block;
   position:relative;
 }
+
+.notes {
+  text-align:center;
+}
+
+.notes ul {
+  list-style-type:circle;
+  display:inline-block;
+  flex-wrap:nowrap;
+}
+
 
 .dropdown-content {
   display: none;
