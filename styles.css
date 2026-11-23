@@ -76,15 +76,6 @@ div {
   margin-bottom:0;
 }
 
-.compOverview {
-  display:flex;
-  gap:30px;
-}
-
-.compOverview div {
-  width:50%;
-}
-
 .songOverview { 
   order:2;
   width:50%;
@@ -281,4 +272,13 @@ li.dropdown {
   .songInfo {
     padding-left:30px;
   }
+
+  .songOverview {
+    width:100%;
+  }
+
+  .bgInfo {
+    width:100%;
+  }
+  
 }
