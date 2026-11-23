@@ -53,10 +53,9 @@ div {
   flex-wrap:wrap;
   text-align:center;
   background-color:bisque;
-  flex-direction:row;
+  flex-direction:column;
   justify-content:space-evenly;
   place-items:center;
-  padding-bottom:20px;
 }
 
 .songTitle div {
@@ -87,9 +86,15 @@ div {
 }
 
 .songOverview { 
+  order:2;
+  width:50%;
+}
+
+.overviewWrapper {
   display:flex;
+  justify-content:space-evenly;
   flex-wrap:wrap;
-  justify-content:center;
+  flex-direction:row;
 }
 
 .timeLiving h1, .timeLiving h2{
@@ -98,6 +103,8 @@ div {
 
 .bgInfo {
   text-align:center;
+  order:1;
+  width:50%;
 }
 
 
